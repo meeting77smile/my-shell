@@ -221,25 +221,19 @@ git init git commit -m "feat: 初始化Rust项目结构"
 2. ​**​添加主循环功能​**​：
 
 ```bash
-`git add src/main.rs git commit -m "feat: 实现基本shell主循环" 
+`git add src/main.rs git commit -m "第二次提交：实现主循环" 
 ```
 
-3. ​**​管道功能实现​**​：
+3. ​**​管道与命令执行实现​**​：
 
 ```bash
-git add src/main.rs git commit -m "feat: 添加管道支持 | refactor: 重构命令解析逻辑" `
+git add src/main.rs git commit -m "第三次提交：实现管道与命令执行" 
 ```
 
-4. ​**​内建命令实现​**​：
+4. ​**​特殊命令处理实现​**​：
 
 ```bash
-`git add src/main.rs git commit -m "feat: 实现cd和exit内建命令"
-```
-
-5. ​**​错误处理​**​：
-
-```bash
-git add src/main.rs git commit -m "fix: 修复管道错误处理 | docs: 更新错误处理文档" 
+`git add src/main.rs git commit -m "第四次提交：实现特殊命令处理"
 ```
 
 ---
